@@ -1,6 +1,8 @@
 header {
-    padding: 10px; 
-    text-align: center; 
+    padding: 20px;
+    padding-left: 150px;
+    text-align: center;
+    font-family: 'Tenor Sans', sans-serif;
 }
 
 nav ul {
@@ -15,13 +17,29 @@ nav ul li {
 
 nav ul li a {
     color: #000000; 
-    font-size: 24px; 
+    font-size: 28px; 
     text-decoration: none;
 }
 
 nav ul li a:hover {
     text-decoration: underline;
 }
+
+.jogo{
+    position: absolute;
+    right: 58.5%;
+}
+
+.video{
+    position: absolute;
+    right: 45.5%;
+}
+
+.contato{
+    position: absolute;
+    right: 31.5%;
+}
+
 body {
     background-image: url('Inserir\ um\ pouquinho\ de\ texto.jpg');
     background-size: cover; 
@@ -29,19 +47,53 @@ body {
 }
 
 .espaco-em-branco {
-    height: 500px;
- 
+    height: 985px;
 }
 .texto-container {
     display: flex;
-    justify-content: space-between; 
 }
 
-.texto {
-    width: calc(33.33% - 15px); 
+.fase1 {
+    width: calc(33.33% - 15px);
     text-align: center; 
     margin-right: 20px; 
-    padding: 90px; 
+    padding: 90px;
+    position: relative;
+    left: 175px;
+}
+
+.texto{
+    position: relative;
+    top: 480px;
+    right: 200px;
+}
+
+.fase2{
+    width: calc(33.33% - 15px);
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 110px;
+}
+
+.texto1{
+    position: relative;
+    top: 480px;
+    right: 150px;
+}
+
+.fase3{
+    width: calc(33.33% - 15px);
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 150px;
+}
+
+.texto2{
+    position: relative;
+    top: 490px;
+    right: 120px;
 }
 
 h2 {
@@ -53,13 +105,12 @@ h2 {
 }
 
 p {
-    font-size: 20px;
+    font-family: 'Autour One', cursive;
+    font-size: 30px;
     line-height: 1.4; 
+    text-align: center;
 }
 
-.espaco-em-brancov2 {
-    height: 220px;
-}
 .video-container {
     display: flex;
     justify-content: center;
@@ -70,9 +121,27 @@ p {
 video {
     max-width: 100%; 
     height: auto; 
-    margin-right: 50px;
-    margin-left: 250px;
+    position: relative;
+    top: 670px;
+    left: 300px;
 }
-.espaco-em-brancov3 {
-    height: 220px;
+
+footer{
+    position: relative;
+    top: 550px;
+}
+
+.insta{
+    position: relative;
+    top: 150px;
+}
+
+.git{
+    position: relative;
+    top: 150px;
+}
+
+.linke{
+    position: relative;
+    top: 150px;
 }
